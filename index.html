@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--------------------- Font Link ----------------------->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"/>
+
+
+<!-------------------- Search icon link ------------------>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+
+<!-------------------- css style link -------------------->
+    <link rel="stylesheet" href="./style/style.css" />
+
+<!---------------------- tab title ----------------------->
+    <title>Cooking Monster</title>
+  </head>
+
+
+  <body>
+<!--------------------- homepage navbar  ----------------->
+    <nav>
+    <h1 class="wp-logo">Cooking Master</h1>
+      <div class="menustyle">
+        <ul class="menustyle">
+        <li class="menu-button">Home</li>
+        <li class="menu-button">About</li>
+        <li class="menu-button">Recipes</li>
+        <li class="menu-button">Blog</li>
+        </ul>
+      </div>
+    </nav>
+
+    
+<!------------- homepage product search box --------------->
+  <section class="search-box">
+    <i class="material-icons icon">search</i>
+    <input
+      id="search-place"
+      class="search-place"
+      placeholder="Search for Meal..."
+      autocomplete="off"/>
+    <button id="search-button" class="search-button">Search</button>
+  </section>
+
+<!---------------- product details area -------------------->
+  <section id="product-info" class="product-info"></section>
+  <section id="product" class="product-section"></section>
+
+
+<!----------------- javascript link area ------------------->
+  <script src="./script/script.js"></script>
+  </body>
+</html>
